@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="shortcut icon" href="/imagenes/neworld.png" type="image/x-icon">
+    <link href="/css/perfil.css"rel='stylesheet'/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio |</a>
+            <a href="logueo.html">Login |</a>
+            <a href="carrito.html">Carrito |</a>
+            <a href="contactenos.html">Contáctenos</a>
+            <a href="#"></a>
+        </nav>
+        <br>
+        <br>
+        <section class="textos-header">
+            <h1>Registrese Para Tener Una Mejor Experiencia</h1>
+        </section>
+    </header>
+<br>
+<br>
+<form>
+    <fieldset>
+        <label for="nombre">Primer Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" size="70"
+            placeholder="Escribe Tu Primer Nombre" required="true"/><br/>
+
+        <label for="nombre">Segundo Nombre (Opcional):</label><br/>
+        <input type="text" id="nombre" name="nombre" size="70"
+            placeholder="Escribe Tu Segundo Nombre" required="true"/><br/>
+
+        <label for="apellido">Apellidos:</label><br/>
+        <input type="text" id="apellido" name="apellido" size="70"
+            placeholder="Escribe Tus Apellidos" required="true"/><br/>
+
+        <label for="email">E-mail:</label><br/>
+        <input type="text" id="email" name="email" size="70"
+            placeholder="Escribe Tu E-mail" required="true"/><br/>
+
+        <label for="id">Documento de Identidad:</label><br/>
+        <input type="text" id="id" name="id" size="70"
+            placeholder="Escribe Tu Identificacion" required="true"/><br/>
+
+        <label for="contraseña">Contraseña:</label><br/>
+        <input type="text" id="contraseña" name="contraseña" size="70"
+            placeholder="Escribe Tu contraseña" required="true"/><br/>
+    
+        <label for="ciudad">Ciudad:</label><br/>
+        <input type="text" id="ciudad" name="ciudad" size="70"
+            placeholder="Escribe Tu Ciudad" required="true"/><br/>
+        <br/>
+    </fieldset>    
+</form>
+<br>
+<br>
+<label>
+    <center><input type="checkbox" id="terminos" value="checkbox">Acepto las condiciones del servicio y la politica de privacidad</center>
+</label>
+<br>
+<br>
+<div class="container">
+<label for="captcha">¿Cuánto es 5 + 5?</label>
+<input type="text" name="captcha" id="captcha">
+</div>
+<br>
+<br>
+<!--form action="procesar-formulario.php" method="post"></form-->
+<div class="button-container">
+<button class="button2" id="send-btn" >Enviar</button>
+    <button class="button3" id="cancel-btn">Cancelar</button>
+</div>
+<br>
+<br>
+<br>
+<article>Copyright&copy; 2022 - Página creada por Juan Bermudez - Todos los derechos reservados.</article>
+<br>
+<script>
+    function validateForm() {
+      var answer = document.getElementById('captcha').value;
+      if (answer === '10') {
+        return true;
+      } else {
+        alert('Por favor, ingrese una respuesta válida.');
+        return false;
+      }
+    }
+    </script>
+    
+</body>
+</html>

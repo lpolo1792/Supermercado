@@ -1,0 +1,117 @@
+body {
+  background-color: #a6e669;
+}
+/* styling navlist */
+#navlist {
+  background-color: #d9d900;
+  position: absolute;
+  width: 100%;
+}
+
+/* styling navlist anchor element */
+#navlist a {
+  float: left;
+  display: block;
+  color: #c60b0b;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navlist-right {
+  float: right;
+}
+
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* styling search bar */
+#search input[type="text"] {
+  width: 800px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px;
+}
+
+.search button {
+  background-color: #eaf1eb;
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: rgb(17, 53, 235);
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 16px;
+}
+
+.contenedor {
+  position: relative;
+  display: contents;
+  text-align: center;
+}
+.centrado {
+  position: fixed;
+  background-color: white;
+}
+.footer {
+  display: block;
+  background-color: #d5d9d9;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  border-top: 1px solid #d5d9d9;
+  margin-top: 0;
+  padding: 1em;
+  text-align: center;
+}
+.Titulo1 {
+  text-align: center;
+  background-color: rgb(246, 250, 250);
+}
+.Titulo2 {
+  text-align: center;
+  background-color: rgb(246, 250, 250);
+}
+.marquesina1 {
+  background-color: rgb(215, 240, 162);
+}
+.marquesina2 {
+  background-color: rgb(219, 245, 159);
+}
+.boton {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  font-weight: 400;
+  font-size: 20px;
+  padding-left:40px;
+  padding-right:20px;
+  background-color: rgb(17, 53, 235); /*color botón*/
+  color: white; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-align:right;
+  text-transform:none ; /*capitalización texto*/
+  font-family: "Helvetica", sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  background-image: url(/imagenes/user_icon3.png);
+  background-repeat:no-repeat;
+  background-position:left;
+} 
